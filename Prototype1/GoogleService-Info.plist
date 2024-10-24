@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyCK4_ROEenvWCp2BjsS0TRMDKH_8l1ksPc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>913106839009</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>mx.itesm.josue.Prototype1</string>
+	<key>PROJECT_ID</key>
+	<string>bagu-a7024</string>
+	<key>STORAGE_BUCKET</key>
+	<string>bagu-a7024.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:913106839009:ios:5e0328027d1217cebe9ea0</string>
+	<key>DATABASE_URL</key>
+	<string>https://bagu-a7024-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
