@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Responsive NFT Website</title>
+</head>
+
+<body>
+
+    <nav>
+        <img src="./assets/main-logo.png" class="logo">
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="#features">Features</a>
+            <a href="#roulette">Roulette</a>
+            <a href="aboutUs.html">About Us</a>
+            
+        </div>
+        <img src="./assets/tec-logo.png" class="logo">
+    </nav>
+
+    <header>
+        <div class="left">
+            <h1>Explore the World of <span>Generative Artificial Intelligence</span></h1>
+        </div>
+        <img src="./assets/ai-head.png">
+    </header>
+
+    <div id="features" class="sell-nft">
+        <div class="item">
+            <div class="header">
+                <i class='bx bx-question-mark'></i>
+                <h5>What is AutoGPT for Gen AI Map?</h5>
+            </div>
+            <p>AutoGPT for Gen AI Map is a revolutionary tool that uses the power of artificial intelligence to gather relevant information about the main tools and projects of generative artificial intelligence. The best part? The whole process is automated!</p>
+        </div>
+        <div class="item">
+            <div class="header">
+                <i class='bx bxs-network-chart'></i>
+                <h5>How does it work?</h5>
+            </div>
+            <p>Our tool uses advanced natural language processing (NLP) and machine learning techniques to analyze data from a wide variety of reliable sources. This allows us to accurately and efficiently generate information about the main AI tools, all in one place.</p>
+        </div>
+        <div class="item">
+            <div class="header">
+                <i class='bx bxs-user-plus'></i>
+                <h5>Benefits for you</h5>
+            </div>
+            <p>
+            <span class="bold">Constant Updates:</span> Stay up to date with the latest news and advances in the world of generative artificial intelligence.
+            <span class="bold">Ease of Use:</span> Navigate our platform intuitively and discover detailed information about each tool in a simple way.</p>
+        </div>
+    </div>
+
+    
+    <div id="roulette" class="container">
+        <div class="row">
+            <div class="col-sm-6" id="pieChart"></div>
+            <div id="pieText" class="col-sm-6 text-container">
+                <h1 id="segmentTitle">Select a Category</h1>
+                <p id="segmentText"></p>
+                <p id="segmentElements"></p>
+                <div class="card hidden">
+                    <div class="card-body">
+                        <p id="elementImage" class="hidden card-title"></p>
+                        <h2 id="elementTitle"></h2>
+                        <p id="elementFree"></p>
+                        <p id="elementVersion"></p>
+                        <p id="elementDescription" class="card-text"></p>
+                        <p id="elementWebsite" class="hidden"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <h3>Explore the world of Artificial Intelligence</h3>
+        <div class="right">
+            <div class="links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cooperation</a>
+                <a href="#">Sponsorship</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div class="social">
+                <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.facebook.com/WizelineGlobal/?locale2=en_GB&paipv=0&eav=AfaLxoNWHQ0-DHfL9l5XPL89KdIVr9XAvyjUBHVno5-Qr3VoYHqshN20yd6mKW-_QGc&_rdr"><i class='bx bxl-facebook-square'></i></a>
+                <a href="https://github.com/wizeline"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+    </footer>
+    <div id="cardContainer">
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="module" src="main.js"></script>
+
+
+</body>
+
+</html>
